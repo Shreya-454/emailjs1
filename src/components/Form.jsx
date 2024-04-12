@@ -22,7 +22,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className=" flex justify-center mx-auto w-[500px] container">
+    <div className=" flex justify-center mx-auto w-[500px] container items-center min-h-screen">
       <form
         ref={form}
         onSubmit={sendEmail}

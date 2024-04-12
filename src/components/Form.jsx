@@ -47,7 +47,7 @@ export const ContactUs = () => {
           <textarea name="message" className="border border-solid border-black !h-[80px] w-full resize-none"/>
         </div>
         <div className="w-full">
-          <input type="submit" value="Send" className="bg-black text-white rounded-md px-5 py-3" />
+          <input type="submit" value="Send" className="bg-black text-white cursor-pointer rounded-md px-5 py-3" />
         </div>
       </form>
     </div>

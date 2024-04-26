@@ -125,7 +125,7 @@ export const ContactUs = () => {
         <div>
           <div className="flex flex-col items-center">
             <p className="text-black pt-1 font-outfit" >Form submitted successfully!</p>
-            <button className=" bg-btn-gradient text-black px-3 py-2 font-outfit font-semibold" onClick={handlePopupClose}>Close</button>
+            <button className=" bg-btn-gradient text-black px-3 py-2 font-outfit font-semibold border border-solid border-black" onClick={handlePopupClose}>Close</button>
           </div>
         </div>
       )}
